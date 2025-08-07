@@ -73,7 +73,7 @@ export const Home = () => {
         <div className="relative max-w-4xl mx-auto text-center">
           <Badge className="mb-6 bg-white/20 text-white border-white/30 hover:bg-white/30">
             <Sparkles className="h-4 w-4 mr-2" />
-            Transformuj svou kariéru s AI
+            Připoj se k nám. Komunita s více než 1000 členy
           </Badge>
           
           <h1 className="text-4xl md:text-6xl font-bold text-white mb-6 leading-tight">
