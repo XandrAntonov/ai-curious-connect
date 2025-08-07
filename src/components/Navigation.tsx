@@ -44,7 +44,7 @@ export const Navigation = () => {
               </Link>
             ))}
             <Button asChild className="bg-gradient-primary hover:shadow-primary">
-              <Link to="/komunita">Připojit se</Link>
+              <Link to="/prihlaseni">Připojit se</Link>
             </Button>
           </div>
 
@@ -77,7 +77,7 @@ export const Navigation = () => {
               ))}
               <div className="px-3 py-2">
                 <Button asChild className="w-full bg-gradient-primary hover:shadow-primary">
-                  <Link to="/komunita" onClick={() => setIsOpen(false)}>
+                  <Link to="/prihlaseni" onClick={() => setIsOpen(false)}>
                     Připojit se
                   </Link>
                 </Button>

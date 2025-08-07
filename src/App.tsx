@@ -9,6 +9,7 @@ import { Blog } from "./pages/Blog";
 import { About } from "./pages/About";
 import { Community } from "./pages/Community";
 import { Contact } from "./pages/Contact";
+import { Subscribe } from "./pages/Subscribe";
 import { ThankYou } from "./pages/ThankYou";
 import { Privacy } from "./pages/Privacy";
 import { Terms } from "./pages/Terms";
@@ -31,6 +32,7 @@ const App = () => (
             <Route path="blog/:slug" element={<BlogPost />} />
             <Route path="o-nas" element={<About />} />
             <Route path="komunita" element={<Community />} />
+            <Route path="prihlaseni" element={<Subscribe />} />
             <Route path="kontakt" element={<Contact />} />
             <Route path="dekujeme" element={<ThankYou />} />
             <Route path="ochrana-osobnich-udaju" element={<Privacy />} />
