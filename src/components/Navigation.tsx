@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, useLocation } from "react-router-dom";
 import { Button } from "@/components/ui/button";
-import { Brain, Menu, X } from "lucide-react";
+import { Cpu, Menu, X } from "lucide-react";
 
 export const Navigation = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,7 +24,7 @@ export const Navigation = () => {
             to="/" 
             className="flex items-center space-x-2 text-xl font-bold text-primary hover:text-primary-hover transition-colors"
           >
-            <Brain className="h-8 w-8" />
+            <Cpu className="h-8 w-8" />
             <span>AI Inquisitive</span>
           </Link>
 
